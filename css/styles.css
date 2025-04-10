@@ -3376,7 +3376,7 @@ td:last-child {
     z-index                 : 2;
     background-color        : var(--color-gray-10);
     width                   : 100%;
-    height                  : max(var(--content-min-height), 100vh);
+    /* height                  : max(var(--content-min-height)); */
     overflow                : hidden;
     position                : relative;
 }
@@ -3475,6 +3475,13 @@ td:last-child {
     height        : 100%;
     margin        : 0;
     padding       : 0;
+}
+
+.s-intro__content-image{
+    background-image: url("../images/intro-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 17%;
 }
 
 /* --------------------------------------------------------------------
